@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brainwave</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 100vw;
+        background-color: #0e0c15;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+      header {
+        position: sticky;
+        top: 0;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0e0c15;
+        border-bottom: 2px solid grey;
+      }
+      .nav1 {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+        margin: 30px;
+        color: white;
+      }
+      .fa-solid {
+        color: #ac6aff;
+        font-size: xxx-large;
+      }
+      .nav2 {
+        display: flex;
+        column-gap: 30px;
+      }
+
+      .nav3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        column-gap: 30px;
+      }
+      a {
+        color: grey;
+        font-style: none;
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+      }
+      #sign {
+        height: 40px;
+        width: 90px;
+        border: 3px solid;
+        border-color: rgb(46, 158, 193) rgba(157, 38, 157, 0.958) orange;
+        background-color: #0e0c15;
+        color: white;
+        border-radius: 10px 25px 10px 10px;
+        font-weight: bold;
+      }
+      #sign:hover {
+        color: rgb(155, 56, 155);
+      }
+
+      button {
+        height: 40px;
+        width: 110px;
+        border: 3px solid;
+        /* border-color: rgb(46, 158, 193) rgba(157, 38, 157, 0.958) orange; */
+        background-color: #0e0c15;
+        color: white;
+        border-radius: 10px 25px 10px 10px;
+        font-weight: bold;
+      }
+      .body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 10px;
+      }
+      .body1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        width: 70%;
+        /* flex-wrap: wrap; */
+        min-height: 500px;
+        box-sizing: border-box;
+        flex-direction: column;
+        /* border: 2px solid; */
+        color: white;
+        font-size: xx-large;
+        /* line-height: 50px; */
+      }
+      span {
+        text-decoration: underline;
+        text-decoration-color: rgb(164, 37, 131);
+        text-decoration-style: var(25px);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="nav1">
+          <i class="fa-solid fa-brain"></i>
+          <h1>Brainwave</h1>
+        </div>
+        <div class="nav2">
+          <a href="#">FEATURES</a>
+          <a href="#">PRICING</a>
+          <a href="#">HOW TO USE</a>
+          <a href="#">ROADMAP</a>
+        </div>
+        <div class="nav3">
+          <a href="#">NEW ACCOUNT</a>
+          <button id="sign">SIGN IN</button>
+        </div>
+      </div>
+    </header>
+    <body>
+      <div class="body">
+        <div class="body1">
+          <h1>
+            Explore the Possibiliries of AI Chatting with
+            <span> Brainwave</span>
+          </h1>
+          <br />
+          <p>
+            Unleash the power of AI within Brainwave. Upgrade your productivity
+            with Brainwave, the open AI chat app.
+          </p>
+          <br />
+          <button>GET STARTED</button>
+        </div>
+      </div>
+    </body>
+  </body>
+</html>
