@@ -87,23 +87,36 @@
         color: white;
         border-radius: 10px 25px 10px 10px;
         font-weight: bold;
+        background-color: white;
+        color: black;
+      }
+      button:hover {
+        color: violet;
+        border-color: white;
       }
       .body {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0px 10px;
+        margin: 0px 5vw 60px;
+        width: 90vw;
+        flex-direction: column;
+        align-self: center;
+        border: 1px solid gray;
+        border-top: none;
       }
       .body1 {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
+        align-self: center;
         padding: 20px;
-        width: 70%;
+        width: 65%;
         /* flex-wrap: wrap; */
         min-height: 500px;
         box-sizing: border-box;
-        flex-direction: column;
+
         /* border: 2px solid; */
         color: white;
         font-size: xx-large;
@@ -113,6 +126,77 @@
         text-decoration: underline;
         text-decoration-color: rgb(164, 37, 131);
         text-decoration-style: var(25px);
+      }
+      .img img {
+        width: 60vw;
+      }
+      .p p {
+        color: gray;
+        margin-top: 70px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .list ul li {
+        display: inline-flex;
+        list-style-position: inside;
+        color: white;
+        padding: 100px;
+        font-size: larger;
+      }
+      .h2 h2 {
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        width: 40vw;
+        font-weight: 00;
+        padding: 0px 90px;
+      }
+      .grid {
+        width: 100%;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        justify-content: space-evenly;
+        row-gap: 40px;
+        border-bottom: 1px solid gray;
+        padding-bottom: 100px;
+
+      }
+      .grid .grids {
+        border-radius: 20px 30% 20px 20px;
+        background-color: #000000;
+        color: white;
+        box-sizing: border-box;
+        margin-bottom: 50px;      }
+      .grid .grids:hover {
+          background-image: url(https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png);
+          
+        }
+      .grid div p {
+        font-size: x-large;
+        color: gray;
+        padding-bottom: 60px;
+        padding-right: 80px;
+        padding-left: 10px;
+        font-weight: 50;
+      }
+      .grid div h3 {
+        padding: 10px 0px 20px 10px;
+        font-size: xx-large;
+        font-weight: 400;
+      }
+      .grid .bottom {
+        padding: 10px 30px 30px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .body h2{
+        color: white;
+        font-size: xxx-large;
+        font-weight: 100;
       }
     </style>
   </head>
@@ -135,11 +219,11 @@
         </div>
       </div>
     </header>
-    <body>
+    <main>
       <div class="body">
         <div class="body1">
           <h1>
-            Explore the Possibiliries of AI Chatting with
+            Explore the Possibilities of AI Chatting with
             <span> Brainwave</span>
           </h1>
           <br />
@@ -150,7 +234,96 @@
           <br />
           <button>GET STARTED</button>
         </div>
+        <div class="img">
+          <img
+            src="https://i.pinimg.com/736x/57/86/04/57860497d318b5205ba75f17beaec8e7.jpg"
+            alt=""
+          />
+        </div>
+        <div class="p">
+          <p>HELPING PEOPLE CREATE BEAUTIFUL CONTENT AT</p>
+        </div>
+        <div class="list">
+          <ul>
+            <li>💀 your logo</li>
+            <li>💀 your logo</li>
+            <li>💀 your logo</li>
+            <li>💀 your logo</li>
+          </ul>
+        </div>
+        <div class="h2">
+          <h2>Chat Smarter, Not Harder with Brainwave</h2>
+        </div>
+        <div class="grid">
+          <div class="grids">
+            <h3>Ask anything</h3>
+            <p>
+              Lets users quickly find answers to their questions without having
+              to search through multiple sources.
+            </p>
+            <div class="bottom">
+              <i class="fa-solid fa-message"></i>
+              <pre>EXPLORE MORE  ></pre>
+            </div>
+          </div>
+          <div class="grids">
+            <h3>Improve everyday</h3>
+            <p>
+              Lets users quickly find answers to their questions without having
+              to search through multiple sources.
+            </p>
+            <div class="bottom">
+              <i class="fa-solid fa-message"></i>
+              <pre>EXPLORE MORE  ></pre>
+            </div>
+          </div>
+          <div class="grids">
+            <h3>Connect everyday</h3>
+            <p>
+              Lets users quickly find answers to their questions without having
+              to search through multiple sources.
+            </p>
+            <div class="bottom">
+              <i class="fa-solid fa-message"></i>
+              <pre>EXPLORE MORE  ></pre>
+            </div>
+          </div>
+          <div class="grids">
+            <h3>Fast responding</h3>
+            <p>
+              Lets users quickly find answers to their questions without having
+              to search through multiple sources.
+            </p>
+            <div class="bottom">
+              <i class="fa-solid fa-message"></i>
+              <pre>EXPLORE MORE  ></pre>
+            </div>
+          </div>
+          <div class="grids">
+            <h3>Ask anything</h3>
+            <p>
+              Lets users quickly find answers to their questions without having
+              to search through multiple sources.
+            </p>
+            <div class="bottom">
+              <i class="fa-solid fa-message"></i>
+              <pre>EXPLORE MORE  ></pre>
+            </div>
+          </div>
+          <div class="grids">
+            <h3>Improve everyday</h3>
+            <p>
+              Lets users quickly find answers to their questions without having
+              to search through multiple sources.
+            </p>
+            <div class="bottom">
+              <i class="fa-solid fa-message"></i>
+              <pre>EXPLORE MORE  ></pre>
+            </div>
+          </div>
+        </div>
+        <h2>AI Chat App for seamless collaboration</h2>
       </div>
-    </body>
+    </main>
   </body>
 </html>
